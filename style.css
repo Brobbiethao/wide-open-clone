@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('img/wot-masthead-dark.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw;
+
+}
+
+.container {
+  position: relative;
+
+}
+
+.mobile-nav {
+  display: inline;
+  position: fixed;
+  top: 2em;
+  left: 50%;
+}
+
+.mobile-nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.mobile-nav-link {
+    justify-content: flex-end;
+    margin: 0;
+    display: inline;
+}
+
+.bumper {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+}
+
+.float {
+  display: inline;
+  float: left;
+}
+
+
+.float-image {
+  display: inline;
+  float: left;
+
+}
+
+
+
+.mobile-nav-link-item {
+    text-decoration: none
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 10px;
+    display: inline;
+}
+
+a {
+ text-decoration: none;
+ justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+}
