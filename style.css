@@ -46,14 +46,11 @@
   float: left;
 }
 
-
 .float-image {
   display: inline;
   float: left;
 
 }
-
-
 
 .mobile-nav-link-item {
     text-decoration: none
@@ -77,4 +74,8 @@ li {
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
+}
+
+img {
+
 }

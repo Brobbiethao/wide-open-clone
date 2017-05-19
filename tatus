@@ -1,0 +1,44 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex cd85b0b..3d669fb 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -3,10 +3,9 @@[m
+   <head>[m
+     <meta charset="utf-8">[m
+     <meta name="viewport" content="widt-device-width, initial-scale=1">[m
+[31m-    <title>Wide Open Tect Clone</title>[m
+[32m+[m[32m    <title>Wide Open Tect Student Clone</title>[m
+     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">[m
+     <link rel="stylesheet" href="style.css">[m
+[31m-[m
+   </head>[m
+   <body>[m
+       <div class="container">[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex be4e604..a9af90c 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -46,15 +46,12 @@[m
+   float: left;[m
+ }[m
+ [m
+[31m-[m
+ .float-image {[m
+   display: inline;[m
+   float: left;[m
+ [m
+ }[m
+ [m
+[31m-[m
+[31m-[m
+ .mobile-nav-link-item {[m
+     text-decoration: none[m
+     font-family: 'Lato', sans-serif;[m
+[36m@@ -78,3 +75,7 @@[m [mli {[m
+   text-decoration: none;[m
+   justify-content: space-between;[m
+ }[m
+[32m+[m
+[32m+[m[32mimg {[m
+[32m+[m
+[32m+[m[32m}[m
